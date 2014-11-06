@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="269dp" >
+
+    <LinearLayout
+        android:id="@+id/presentationItem"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:orientation="vertical" >
+
+        <AbsoluteLayout
+            android:id="@+id/AbsoluteLayout1"
+            android:layout_width="200dp"
+            android:layout_height="150dp" >
+
+            <ImageView
+                android:id="@+id/img_thump"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:maxHeight="150dp"
+                android:maxWidth="200dp" />
+
+            <ImageButton
+                android:id="@+id/btn_PresentationDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="165dp"
+                android:layout_y="115dp"
+                android:background="@drawable/presentation_download_layout_btn_download"
+                android:src="@drawable/presentation_download_layout_btn_download" />
+
+        </AbsoluteLayout>
+
+        <TextView
+            android:id="@+id/presentationTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</merge>

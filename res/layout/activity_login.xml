@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_layout_bg"
+    android:orientation="vertical"
+    tools:context="com.eye_egypt.conferenceapp.notifications.notifications.activities.LoginActivity" >
+
+    <ImageView
+        android:id="@+id/imageView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/login_layout_logo" />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="right" >
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/login_layout_lbl_username" />
+
+        <EditText
+            android:id="@+id/txt_Username"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:background="@drawable/login_layout_textview_bg"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="5dp"
+        android:gravity="right" >
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/login_layout_lbl_password" />
+
+        <EditText
+            android:id="@+id/txt_Password"
+            android:layout_width="252dp"
+            android:layout_height="44dp"
+            android:background="@drawable/login_layout_textview_bg"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="96dp"
+            android:layout_height="39dp"
+            android:background="@drawable/login_layout_btn_login" />
+    </LinearLayout>
+
+</LinearLayout>

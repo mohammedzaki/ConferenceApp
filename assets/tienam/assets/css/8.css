@@ -1,0 +1,324 @@
+/*#Scene8_Background{ width: 1024px; height: 748px; top:0px;left:0px; position:absolute; overflow: hidden;}*/
+.page{ 
+    background-image: url('../img/BG2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1024px !important;
+    height: 768px !important;
+    
+}
+
+#Scene8_0{top: 70px; left: 220px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_0.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: .5s;}
+
+#Scene8_1{top:130px; left: 210px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_1.visible{-webkit-animation: Scene8_1-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: .5s;}
+@-webkit-keyframes Scene8_1-bounce {
+	0% {	       
+               -webkit-transform: scale(1.4 , 1);
+               opacity: 0;
+	}              
+	100% {
+		       -webkit-transform: scale(1.4 , 1);
+               opacity: 1;
+	}	
+}
+
+#Scene8_2{top: 270px; left: 150px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_2.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1s;}
+
+#Scene8_3{top: 310px; left: 150px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_3.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1.2s;}
+
+#Scene8_4{top: 350px; left: 150px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_4.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1.4s;}
+
+#Scene8_5{top: 390px; left: 150px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_5.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1.6s;}
+
+
+#Scene8_6{top: 200px; left: 260px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_6.visible{-webkit-animation: Scene_Opacity-bounce .5s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1.8s;}
+
+
+#Scene8_7{top: 200px; left: 320px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_7.visible{-webkit-animation: Scene_Opacity-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 2s;}
+
+#Scene8_8{top: 172px; left: 490px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_8.visible{-webkit-animation: Slide_Up_bounce .5s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1.2s;}
+
+#Scene8_9{top: 200px; left: 390px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_9.visible{-webkit-animation: Scene_Scale-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 2.4s;}
+
+
+#Scene8_10{top: 225px; left: 540px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_10.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 2.6s;}
+
+#Scene8_11{top: 280px; left: 420px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_11.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 2.8s;}
+
+#Scene8_12{top: 330px; left: 520px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_12.visible{-webkit-animation: Scene_Opacity-bounce 0.5s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 3s;}
+
+#Scene8_13{top: 370px; left: 470px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_13.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 3.2s;}
+
+#Scene8_14{top: 410px; left: 520px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_14.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 3.4s;}
+
+#Scene8_15{top: 230px; left: 690px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_15.visible{-webkit-animation: Scene_Opacity-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 3.6s;}
+
+#Scene8_16{top: 230px; left: 800px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_16.visible{-webkit-animation: Scene_Opacity-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 3.8s;}
+
+#Scene8_17{top: 500px; left: 300px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_17.visible{-webkit-animation: Slide_Up_bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1s;}
+
+#Scene8_18{top: 570px; left: 70px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_18.visible{-webkit-animation: Slide_Up_bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1s;}
+/*
+#Scene8_19{top: 330px; left: 180px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_19.visible{-webkit-animation: Scene_Opacity-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 9s;}
+
+#Scene8_20{top: 345px; left: 180px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_20.visible{-webkit-animation: Scene_Opacity-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 9.5s;}
+
+#Scene8_21{top: 355px; left: 180px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_21.visible{-webkit-animation: Scene_Opacity-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 10s;}
+
+#Scene8_22{top: 360px; left: 180px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_22.visible{-webkit-animation: Scene_Opacity-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 10.5s;}
+
+#Scene8_23{top: 380px; left: 180px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_23.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 11s;}
+
+#Scene8_24{top: 410px; left: 180px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_24.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 11.5s;}
+
+#Scene8_25{top: 480px; left: 130px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_25.visible{-webkit-animation: Slide_Up_bounce 1 ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 12s;}
+
+#Scene8_26{top: 560px; left: 80px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene8_26.visible{-webkit-animation: Slide_Up_bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 12.5s;}
+
+*/
+
+
+
+
+/*Background for Popups*/
+
+/*Background 1 */
+#background_transparent1{-webkit-transform-style: preserve-3d; opacity: 0.75; position:absolute; top: -768px; left: 0px; height:768px; width:1024px; background: grey; z-index: 2 ; }
+#background_transparent1.visible{-webkit-animation: background_transparent1-bounce .75s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 0s;}
+@-webkit-keyframes background_transparent1-bounce {
+	100% {
+		-webkit-transform: translate3d(0px , 768px , 0px);
+                -webkit-animation-timing-function: ease-in-out;
+	}   	
+}
+
+.resetBackground_Transparent1 {
+    -webkit-animation-name: resetBackground_Transparent1_kf;
+    -webkit-animation-duration: .75s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    }
+@-webkit-keyframes resetBackground_Transparent1_kf {
+    0%{
+        -webkit-transform: translate3d(0px , 768px , 0px);
+	-webkit-animation-timing-function: ease-in-out;
+    } 
+    100% {
+		-webkit-transform: translate3d(0px , 0px , 0px);
+		-webkit-animation-timing-function: ease-in-out;
+	}
+}
+
+
+#background_Frame1{-webkit-transform-style: preserve-3d; top: 400px;left: 1024px; position: absolute; opacity: 0; z-index: 3 ;}
+#background_Frame1.visible{-webkit-animation: background_Frame1-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 0s;}
+@-webkit-keyframes background_Frame1-bounce {
+	0% {
+		-webkit-transform: translate3d(-950px , 0px , 0px) scale(0,0) ;
+                opacity: 0;
+		-webkit-animation-timing-function: ease-in-out;
+	}        
+        80% {
+		-webkit-transform: translate3d(-950px , 0px , 0px) scale(1.3,1.3);
+                opacity: 1;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+        100% {
+		-webkit-transform: translate3d(-950px , 0px , 0px) scale(1,1);
+                opacity: 1;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+        	
+}
+
+@-webkit-keyframes reset_background_Frame1_kf {
+    0%{
+        -webkit-transform: translate(-977px,0);
+        opacity: 1;
+	-webkit-animation-timing-function: ease-in-out;
+    } 
+    100% {
+		-webkit-transform: translate(0px,0);
+                opacity: 0;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+    }
+.reset_background_Frame1 {
+    -webkit-animation-name: reset_background_Frame1_kf;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    } 
+
+
+
+/*Background 2 */
+#background_transparent2{-webkit-transform-style: preserve-3d; opacity: 0.75; position:absolute; top: -768px; left: 0px; height:768px; width:1024px; background: grey; z-index: 2 ; }
+#background_transparent2.visible{-webkit-animation: background_transparent2-bounce .75s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 0s;}
+@-webkit-keyframes background_transparent2-bounce {
+	100% {
+		-webkit-transform: translate3d(0px , 768px , 0px);
+                -webkit-animation-timing-function: ease-in-out;
+	}   	
+}
+
+.resetBackground_Transparent2 {
+    -webkit-animation-name: resetBackground_Transparent2_kf;
+    -webkit-animation-duration: .75s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    }
+@-webkit-keyframes resetBackground_Transparent2_kf {
+    0%{
+        -webkit-transform: translate3d(0px , 768px , 0px);
+	-webkit-animation-timing-function: ease-in-out;
+    } 
+    100% {
+		-webkit-transform: translate3d(0px , 0px , 0px);
+		-webkit-animation-timing-function: ease-in-out;
+	}
+}
+
+
+#background_Frame2{-webkit-transform-style: preserve-3d; top: 400px;left: 1024px; position: absolute; opacity: 0; z-index: 3 ;}
+#background_Frame2.visible{-webkit-animation: background_Frame2-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 0s;}
+@-webkit-keyframes background_Frame2-bounce {
+	0% {
+		-webkit-transform: translate3d(-950px , 0px , 0px) scale(0,0) ;
+                opacity: 0;
+		-webkit-animation-timing-function: ease-in-out;
+	}        
+        80% {
+		-webkit-transform: translate3d(-950px , 0px , 0px) scale(1.3,1.3);
+                opacity: 1;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+        100% {
+		-webkit-transform: translate3d(-950px , 0px , 0px) scale(1,1);
+                opacity: 1;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+        	
+}
+
+@-webkit-keyframes reset_background_Frame2_kf {
+    0%{
+        -webkit-transform: translate(-977px,0);
+        opacity: 1;
+	-webkit-animation-timing-function: ease-in-out;
+    } 
+    100% {
+		-webkit-transform: translate(0px,0);
+                opacity: 0;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+    }
+.reset_background_Frame2 {
+    -webkit-animation-name: reset_background_Frame2_kf;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    } 
+	
+	
+/*    
+#PopArea1{opacity: 1;  top: 660px;  left: 30px; height:70px; width:80px; z-index: 1 ; background-color: red; position:absolute;-webkit-transform-style: preserve-3d; }    
+
+#PopArea2{opacity: 1;  top: 660px;  left: 690px; height:70px; width:80px; z-index: 1 ; background-color: red; position:absolute;-webkit-transform-style: preserve-3d; }  
+*/
+
+/* popup 1 */
+#slide8_popup1{opacity: 0;-webkit-transform-style: preserve-3d; top: 465px;left: 1024px; position: absolute; opacity: 0; z-index: 4 ;}
+#slide8_popup1.visible{-webkit-animation: slide8_popup1-bounce 1.5s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 0s;}
+@-webkit-keyframes slide8_popup1-bounce {	
+        100% {
+                opacity: 0;
+	}
+        100% {
+		-webkit-transform: translate3d(-920px , 0px , 0px);
+                opacity: 1;
+	}        	
+}
+
+@-webkit-keyframes reset_slide8_popup1_kf {
+    0%{
+        -webkit-transform: translate3d(-920px , 0px , 0px);
+        opacity: 1;
+	-webkit-animation-timing-function: ease-in-out;
+    } 
+    100% {
+		-webkit-transform: translate3d(0px , 0px , 0px);
+                opacity: 0;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+    }
+ 
+.reset_slide8_popup1 {
+    -webkit-animation-name: reset_slide8_popup1_kf;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    }
+
+
+/* popup 2 */
+	
+#slide8_popup2{opacity: 0;-webkit-transform-style: preserve-3d; top: 460px;left: 1024px; position: absolute; opacity: 0; z-index: 4 ;}
+#slide8_popup2.visible{-webkit-animation: slide8_popup2-bounce 1.5s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 0s;}
+@-webkit-keyframes slide8_popup2-bounce {	
+        100% {
+                opacity: 0;
+	}
+        100% {
+		-webkit-transform: translate3d(-920px , 0px , 0px);
+                opacity: 1;
+	}        	
+}
+
+@-webkit-keyframes reset_slide8_popup2_kf {
+    0%{
+        -webkit-transform: translate3d(-920px , 0px , 0px);
+        opacity: 1;
+	-webkit-animation-timing-function: ease-in-out;
+    } 
+    100% {
+		-webkit-transform: translate3d(0px , 0px , 0px);
+                opacity: 0;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+    }
+ 
+.reset_slide8_popup2 {
+    -webkit-animation-name: reset_slide8_popup2_kf;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    }
+	

@@ -1,0 +1,38 @@
+/*#Scene1_Background{ width: 1024px; height: 748px; top:0px;left:0px; position:absolute; overflow: hidden;}*/
+.page{ 
+    background-image: url('../img/1_1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1024px !important;
+    height: 768px !important;
+    
+}
+#Scene1_Header{top: 80px; left: 40px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene1_Header.visible{-webkit-animation: Scene_Header-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: .5s;}
+
+#Scene1_Header2{top: 0px; left: 350px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene1_Header2.visible{-webkit-animation: Scene_Opacity-bounce 1s cubic-bezier(1.000, 1, 0.000, 0.470) 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1s;}
+
+#Scene1_Footer1{top: 640px; left: 570px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene1_Footer1.visible{-webkit-animation: Scene_Logo_bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1.2s;}
+
+#Scene1_Footer4{top: 627px; left: 682px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene1_Footer3{top: 639px; left: 688px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene1_Footer2{top: 629px; left: 683px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene1_Footer4f.visible{-webkit-animation: Scene_Opacity-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 2s;}
+#Scene1_Footer3d.visible{-webkit-animation: Scene_Opacity-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 2.4s;}
+#Scene1_Footer2d.visible{-webkit-animation: Scene_Opacity-bounce 1s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 2.8s;}
+
+
+#Scene1_Footer4.visible{-webkit-animation:xx 2s infinite; -webkit-animation-fill-mode:both; -webkit-animation-delay: 2s;}
+#Scene1_Footer3.visible{-webkit-animation:xx 2s infinite; -webkit-animation-fill-mode:both; -webkit-animation-delay: 2.1s;}
+#Scene1_Footer2.visible{-webkit-animation:xx 2s infinite; -webkit-animation-fill-mode:both; -webkit-animation-delay: 2.2s;}
+
+@-webkit-keyframes xx {
+	0% {	       
+               opacity: 0;
+	}        
+    100% {
+               opacity: 1;
+	}	
+}

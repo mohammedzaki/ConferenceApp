@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="269dp" >
+
+    <TableLayout
+        style="@style/TableNotifications"
+        android:layout_width="450dp"
+        android:background="@drawable/reminder_layout_table_bg" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            style="@style/HeaderRow" >
+
+            <TextView
+                android:id="@+id/NewsTitle"
+                style="@style/TableCell"
+                android:text="!" />
+
+            <TextView
+                android:id="@+id/NewsContent"
+                style="@style/TableCell"
+                android:text="Reminder" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            style="@style/TableRow" >
+
+            <TextView
+                style="@style/TableCell"
+                android:text="!" />
+
+            <TextView
+                style="@style/TableCell"
+                android:text="Error" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            style="@style/TableRow" >
+
+            <TextView
+                style="@style/TableCell"
+                android:text="x" />
+
+            <TextView
+                style="@style/TableCell"
+                android:text="Voting" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            style="@style/TableRow" >
+
+            <TextView
+                style="@style/TableCell"
+                android:text="x" />
+
+            <TextView
+                style="@style/TableCell"
+                android:text="Downlod complet" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow03"
+            style="@style/TableRow" >
+
+            <TextView
+                style="@style/TableCell"
+                android:text="!" />
+
+            <TextView
+                style="@style/TableCell"
+                android:text="New News" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow04"
+            style="@style/TableRow" >
+
+            <TextView
+                style="@style/TableCell"
+                android:text="xx" />
+
+            <TextView
+                style="@style/TableCell"
+                android:text="Announcements (section alarm)" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow05"
+            style="@style/TableRow" >
+
+            <TextView style="@style/TableCell" />
+
+            <TextView style="@style/TableCell" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow06"
+            style="@style/TableRow" >
+
+            <TextView style="@style/TableCell" />
+
+            <TextView style="@style/TableCell" />
+        </TableRow>
+    </TableLayout>
+
+</merge>

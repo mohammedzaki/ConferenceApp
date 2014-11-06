@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="269dp" >
+
+    <LinearLayout
+        android:id="@+id/TodayEventItem"
+        android:layout_width="664dp"
+        android:layout_height="145dp"
+        android:background="@drawable/blue_bg" >
+
+        <FrameLayout
+            android:layout_width="125dp"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/TodayEventImageView"
+                android:layout_width="86dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/news_layout_image_box" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TodayEventTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The Conference Board&apos;s 14th Annual Employee
+Health Care Conference East"
+                android:textColor="@android:color/white"
+                android:textColorLink="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TodayEventTitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The New Imperative: Driving Performance, Connecting to Value
+March 11-12, 2014, Marriott Marquis, New York City, NY"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/TodayEventTitle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The New Imperative: Driving Performance, Connecting to Value
+March 11-12, 2014, Marriott Marquis, New York City, NY"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:typeface="sans" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15dp" >
+
+            <Button
+                android:id="@+id/btn_Join"
+                style="@style/todayEvents_btns"
+                android:drawableLeft="@drawable/today_events_layout_btns_separator"
+                android:text="Join" />
+
+            <Button
+                android:id="@+id/btn_Maybe"
+                style="@style/todayEvents_btns"
+                android:text="Maybe" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</merge>

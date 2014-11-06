@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonStyle">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/newsitem.xml" />
+        <ignore path="res/layout/todayevent.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/newsitem.xml" />
+        <ignore path="res/layout/todayevent.xml" />
+    </issue>
+    <issue id="InflateParams" severity="ignore" />
+    <issue id="SetJavaScriptEnabled" severity="ignore" />
+</lint>

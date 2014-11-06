@@ -1,0 +1,31 @@
+/*#Scene9_Background{ width: 1024px; height: 748px; top:0px;left:0px; position:absolute; overflow: hidden;}*/
+.page{ 
+    background-image: url('../img/BG2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1024px !important;
+    height: 768px !important;
+    
+}
+
+#Scene9_0{top: 70px; left: 400px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene9_0.visible{-webkit-animation: Scene_Scale-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: .5s;}
+
+#Scene9_1{top:130px; left: 70px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene9_1.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1s;}
+
+#Scene9_2{top: 130px; left: 500px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene9_2.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1.2s;}
+
+#Scene9_3{top: 310px; left: 70px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene9_3.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1.4s;}
+
+#Scene9_4{top: 310px; left: 500px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene9_4.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1.6s;}
+
+#Scene9_5{top: 490px; left: 270px; position: absolute; opacity: 0; -webkit-transform-style: preserve-3d;}
+#Scene9_5.visible{-webkit-animation: Scene_Opacity-bounce 2s ease-in-out 0 1 normal; -webkit-animation-fill-mode:both; -webkit-animation-delay: 1.8s;}
+
+
+
+
